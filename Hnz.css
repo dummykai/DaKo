@@ -1,0 +1,23 @@
+@charset "UTF-8"
+
+body{
+    background-color: skyblue;
+}
+.p1{
+    color: aquamarine;
+    background-image: url(01.gif);
+}
+.p2{
+    color: midnightblue;
+    text-align: left;
+}
+.name{
+    text-align: center;
+    color: rgb(0, 58, 184);
+}
+.jpg{
+    text-align: center;
+}
+.e{
+    color: rgb(6, 190, 151);
+}
