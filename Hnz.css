@@ -17,7 +17,7 @@
 .e{
     color: rgb(6, 190, 151);
 }
-li{
+.li{
     display: inline-block;
     list-style-type: none;
     font-weight: bolder;
