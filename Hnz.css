@@ -7,10 +7,28 @@
     color: aquamarine;
     background-image: url("01.gif");
 }
-.name{
-    text-align: center;
+
+.name1{
+	text-align: center;
+	font-weight: 800;
     color: rgb(0, 58, 184);
 }
+.name2{
+	text-align: center;
+	font-weight: 800;
+    color: rgb(68, 218, 255);
+}
+.name3{
+	text-align: center;
+	font-weight: 800;
+    color: rgb(1, 255, 200);
+}
+.name0{
+	text-align: center;
+	font-weight: 800;
+    color: rgb(112, 79, 51);
+}
+
 .jpg{
     text-align: center;
 }
@@ -39,7 +57,7 @@ option{
 .cp_ipselect {
 	overflow: hidden;
     width: 100%;
-    margin: 0px 0px 0px 530px;
+    margin: 0px 0px 0px 270px;
     vertical-align: middle;
 	text-align: bottom;
 }
