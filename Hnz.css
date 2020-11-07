@@ -88,13 +88,17 @@ option{
 	margin: 90px 0 0 0;
 	background-color: rgb(210, 255, 240);
 }
-.right-column
-{
+.right-column{
 	width: 83%;
 }
 
 
-
+.cp_ipselect {
+	overflow: hidden;
+	width: 90%;
+	margin: 2em auto;
+	text-align: center;
+}
 select {
     width: 120%;
 	padding-bottom: 1em;
