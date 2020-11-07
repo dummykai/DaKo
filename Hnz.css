@@ -1,11 +1,16 @@
 @charset "UTF-8";
 
 .tab{
-    margin: 40px;
+    margin: 0px 50px;
 }
 .p1{
     color: aquamarine;
     background-image: url("01.gif");
+}
+h2{
+	margin: 70px 0 0 40px;
+	color: rgb(16, 0, 122);
+	text-align: center;
 }
 
 .name1{
@@ -36,34 +41,63 @@
     color: rgb(6, 190, 151);
 }
 .li{
-    display: inline-block;
+	margin: 5px;
+	text-decoration: none;
     list-style-type: none;
     font-weight: bolder;
     color: rgb(80, 200, 255);
     background-color: rgb(220, 203, 255);
-    width: 250px;
+    width: 220px;
     height: 50px;
     text-align: center;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 20px 20px 20px 20px;
     border-color:  rgb(80, 200, 255);
     border-width: 2px;
-    border-style: solid;
+	border-style: solid;
+}
+.li1{
+	display: inline-block;
+	margin: 0px;
+	text-decoration: none;
+    list-style-type: none;
+    font-weight: bolder;
+    color: rgb(80, 200, 255);
+    background-color: rgb(220, 203, 255);
+    width: 220px;
+    height: 50px;
+    text-align: center;
+    border-radius: 40px 40px 0px 0px;
+    border-color:  rgb(80, 200, 255);
+    border-width: 2px;
+	border-style: solid;
+}
+a{
+	text-decoration: none;
 }
 option{
     font-weight: 500;
 }
-
-
-.cp_ipselect {
-	overflow: hidden;
-    width: 100%;
-    margin: 0px 0px 0px 270px;
-    vertical-align: middle;
-	text-align: bottom;
+#wrapper{
+	width: 1400px;
+	margin:0;
+	display: flex;
+	flex-wrap: wrap;
 }
-.cp_ipselect select {
-    width: 100%;
-	padding-right: 1em;
+.left-column{
+	width: 17%;
+	margin: 90px 0 0 0;
+	background-color: rgb(210, 255, 240);
+}
+.right-column
+{
+	width: 83%;
+}
+
+
+
+select {
+    width: 120%;
+	padding-bottom: 1em;
 	cursor: pointer;
 	text-indent: 0.01px;
 	text-overflow: ellipsis;
@@ -75,11 +109,12 @@ option{
 	-webkit-appearance: none;
 	appearance: none;
 }
-.cp_ipselect select::-ms-expand {
+select::-ms-expand {
     display: none;
 }
 .cp_ipselect.cp_sl05 {
-    width: 17%;
+	width: 85%;
+	margin: 0 10px;
 	position: relative;
 	border-radius: 2px;
     border-radius: 50px;
@@ -87,18 +122,18 @@ option{
 }
 .cp_ipselect.cp_sl05::before {
 	position: absolute;
-	top: 0.5em;
-	right: 0.5em;
-	width: 0;
+	top: 100em;
+	bottom: 100em;
+	width: 10;
 	height: 0;
 	padding: 0;
 	content: '';
-	border-left: 6px solid transparent;
-	border-right: 6px solid transparent;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
 	border-top: 6px solid  rgb(80, 200, 255);
 	pointer-events: none;
 }
-.cp_ipselect.cp_sl05 select {
-	padding: 2px 33px 3px 3px;
+select {
+	padding: 3px 3px 2px 3px;
 	color:  rgb(80, 200, 255);
 }
