@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .tab{
-    margin: 0px 50px;
+    margin: 0px 20px;
 }
 .p1{
     color: aquamarine;
@@ -41,13 +41,13 @@ h2{
     color: rgb(6, 190, 151);
 }
 .li{
-	margin: 5px;
+	margin: 10px;
 	text-decoration: none;
     list-style-type: none;
     font-weight: bolder;
     color: rgb(80, 200, 255);
     background-color: rgb(220, 203, 255);
-    width: 220px;
+    width: 320px;
     height: 50px;
     text-align: center;
     border-radius: 20px 20px 20px 20px;
@@ -84,12 +84,12 @@ option{
 	flex-wrap: wrap;
 }
 .left-column{
-	width: 17%;
-	margin: 90px 0 0 0;
+	width: 25%;
+	margin: 100px 0 0 0;
 	background-color: rgb(210, 255, 240);
 }
 .right-column{
-	width: 80%;
+	width: 70%;
 }
 
 
@@ -139,6 +139,6 @@ select::-ms-expand {
 	pointer-events: none;
 }
 select {
-	padding: 3px 3px 2px 3px;
+	padding: 5px 3px 2px 3px;
 	color:  rgb(80, 200, 255);
 }
