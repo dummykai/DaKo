@@ -33,13 +33,10 @@ h2{
 	font-weight: 800;
     color: rgb(112, 79, 51);
 }
-
 .jpg{
     text-align: center;
 }
-.e{
-    color: rgb(6, 190, 151);
-}
+
 .li{
 	margin: 10px;
 	text-decoration: none;
@@ -72,7 +69,31 @@ h2{
 	border-style: solid;
 }
 a{
+	color: rgb(70, 202, 255);
 	text-decoration: none;
+	font-weight: 900;
+}
+li a:hover{
+	color: rgb(168, 125, 255);
+}
+tr td a{
+	position: relative;
+	display: inline;
+	transition: .3s;
+}
+tr td a::after{
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	content: '';
+	width: 0;
+	height: 2px;
+	background-color:  rgb(168, 125, 255);
+	transition: .3s;
+	transform: translateX(-50%);
+}
+a:hover::after{
+	width: 100%;
 }
 option{
     font-weight: 500;
@@ -86,7 +107,7 @@ option{
 .left-column{
 	width: 25%;
 	margin: 100px 0 0 0;
-	background-color: rgb(210, 255, 240);
+	background-color: rgb(203, 255, 242);
 }
 .right-column{
 	width: 70%;
