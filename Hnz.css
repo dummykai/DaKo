@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
+
 .tab{
-    margin: 0px 20px;
+    margin: 0px 30px;
 }
 .p1{
     color: aquamarine;
@@ -38,7 +39,7 @@ h2{
 }
 
 .li{
-	margin: 10px;
+	margin: 20px 10px;
 	text-decoration: none;
     list-style-type: none;
     font-weight: bolder;
@@ -54,7 +55,7 @@ h2{
 }
 .li1{
 	display: inline-block;
-	margin: 0px;
+	margin: 20px 0 0 0;
 	text-decoration: none;
     list-style-type: none;
     font-weight: bolder;
@@ -87,7 +88,7 @@ tr td a::after{
 	left: 50%;
 	content: '';
 	width: 0;
-	height: 2px;
+	height: 4px;
 	background-color:  rgb(168, 125, 255);
 	transition: .3s;
 	transform: translateX(-50%);
@@ -106,7 +107,7 @@ option{
 }
 .left-column{
 	width: 25%;
-	margin: 100px 0 0 0;
+	margin: 120px 0 0 0;
 	background-color: rgb(203, 255, 242);
 }
 .right-column{
@@ -118,7 +119,7 @@ option{
 .cp_ipselect {
 	overflow: hidden;
 	width: 90%;
-	margin: 2em auto;
+	margin: 10px auto;
 	text-align: center;
 }
 select {
