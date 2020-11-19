@@ -101,7 +101,7 @@ option{
 }
 #wrapper{
 	width: 1400px;
-	margin:0;
+	margin:0 10px;
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -112,6 +112,7 @@ option{
 }
 .right-column{
 	width: 70%;
+	
 }
 
 
