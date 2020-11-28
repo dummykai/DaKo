@@ -8,20 +8,42 @@
 </head>
 <body style="background-image: url(./ph/011.jpg); overflow-x: hidden;">
     <font face="Comic Sans MS">
-    <script type="text/javascript">
-        alert("おひさまですか？");
-    </script>
     <h1 style="color: rgb(20, 243, 169); font-size: 350%; text-align: center;">HINATAZAKA46</h1>
 
     <div style="margin: 0 80px;">  <!--上のバー-->
     <li class="li1"><a href="#1">Character<br>Introduction</a></li>
     <li class="li1"><a href="#2">Histry of<br>Hinatazaka46</a></li>
     </div>
-
+    
     <div id="wrapper">
 
     <div class="left-column">   <!--左のバー-->
         <div style="margin: 20px 0 0 0;">
+        <li class="li" style="color:  rgb(16, 0, 122)" style="font-weight: 900;">
+            <span id="view_clock"></span>
+
+            <script type="text/javascript">
+                timerID = setInterval('clock()',500);
+
+                function clock() {  
+	                document.getElementById("view_clock").innerHTML = getNow();
+                }
+
+                function getNow() {
+	                var now = new Date();
+	                var year = now.getFullYear();
+	                var mon = now.getMonth()+1; 
+	                var day = now.getDate();
+	                var hour = now.getHours();
+	                var min = now.getMinutes();
+                    var sec = now.getSeconds();
+                    var you = now.getDay();
+                    var youbi = new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+	            var s = "TODAY:"+year + "." + mon + "." + day + "(" +youbi[you]+")<br>["+ hour + "h" + min + "m" + sec + "s]"; 
+	            return s;
+                }
+            </script>
+        </li>
         <li class="li"><a href="https://www.hinatazaka46.com/s/official/?ima=0000">日向坂46<br>OFFICIAL WEB SITE</a></li>
         <li class="li"><a href="https://www.hinatazaka46.com/s/official/diary/member?ima=0000">日向坂46<br>OFFICIAL BLOG</a></li>
         <form name="form1">                                              <!--ブログ　セレクト-->
