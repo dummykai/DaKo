@@ -14,6 +14,7 @@
     <div style="margin: 0 80px;">  <!--上のバー-->
     <li class="li1"><a href="#1">Character<br>Introduction</a></li>
     <li class="li1"><a href="#2">Histry of<br>Hinatazaka46</a></li>
+    </div>
     <div class="slide">           <!--写真スライド-->
         <img src="ph/h1.jpg" />
         <img src="ph/h2.jpg" />
@@ -29,18 +30,14 @@
     <p>
         表示時間：<input type="range" id="slide_speed" value="2000" min="100" max="10000">
     </p>
-    </div>
-    
     <div id="wrapper">
 
     <div class="left-column">   <!--左のバー-->
         <div style="margin: 20px 0 0 0;">
         <li class="li" style="color:  rgb(16, 0, 122)" style="font-weight: 900;">
             <span id="view_clock"></span>
-
             <script type="text/javascript">
                 timerID = setInterval('clock()',500);
-
                 function clock() {  
 	                document.getElementById("view_clock").innerHTML = getNow();
                 }
@@ -55,7 +52,7 @@
                     var sec = now.getSeconds();
                     var you = now.getDay();
                     var youbi = new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
-	            var s = "TODAY:"+year + "." + mon + "." + day + "(" +youbiyou]+")<br>+ hour + "" + min + "m" + sec + "s]"; 
+	            var s = "TODAY:"+year + "." + mon + "." + day + "(" +youbi[you]+")<br>"+ hour + "h" + min + "m" + sec + "s"; 
 	            return s;
                 }
             </script>
@@ -98,9 +95,9 @@
         </div>
     </div>
     
-    <div class="right-column" style="width: 60vw;">     <!--右のバー-->
+    <div class="right-column" style="width: 58vw;">     <!--右のバー-->
         <h2><div id="1">＜Character Introduction＞</div></h2>
-        <table border="1" syle="border-color: lightskyblue;" style="width: 119%;" class="tab">
+        <table border="1" syle="border-color: lightskyblue;" style="width: 124%;" class="tab">
 
         <!--1st-->
         <tr>
